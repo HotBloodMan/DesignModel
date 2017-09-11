@@ -16,6 +16,6 @@ public class PasswordUtils {
 	"New passwords can't equal previously used ones")
 	public boolean checkForNewPassword(
 	    List<String> prevPasswords, String password) {
-		return !prevPasswords.contains(password);
+		 return !prevPasswords.contains(password);
 	}
 }
